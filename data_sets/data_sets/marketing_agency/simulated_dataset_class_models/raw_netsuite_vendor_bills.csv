@@ -1,0 +1,97 @@
+id,entity_id,tran_date,total,line_items,class,department,last_modified_date
+NS-VB-0000001,VEND-0018,2024-07-06,5167.47,"[{""description"":""Software"",""amount"":5167.47}]",Paid Media,Client Services,2025-02-14 14:43:39
+NS-VB-0000002,VEND-0007,2025-05-16,4153.95,"[{""description"":""Ad Spend"",""amount"":4153.95}]",Web Dev,Client Services,2026-03-10 13:14:06
+NS-VB-0000003,VEND-0025,2024-04-14,4527.05,"[{""description"":""Contractor"",""amount"":4527.05}]",Email,Client Services,2024-04-10 03:39:18
+NS-VB-0000004,VEND-0034,2026-01-25,5386.75,"[{""description"":""Contractor"",""amount"":5386.75}]",Paid Media,Creative,2025-08-25 14:27:18
+NS-VB-0000005,VEND-0008,2025-07-13,933.89,"[{""description"":""Software"",""amount"":933.89}]",Email,Creative,2025-02-14 22:41:28
+NS-VB-0000006,VEND-0010,2024-10-27,5561.57,"[{""description"":""Contractor"",""amount"":5561.57}]",SEO,Leadership,2025-12-17 07:31:09
+NS-VB-0000007,VEND-0026,2024-10-31,2231.66,"[{""description"":""Ad Spend"",""amount"":2231.66}]",Social,Operations,2026-01-05 19:31:38
+NS-VB-0000008,VEND-0025,2024-07-01,3475.61,"[{""description"":""Ad Spend"",""amount"":3475.61}]",SEO,Finance,2024-08-25 01:48:55
+NS-VB-0000009,VEND-0006,2024-06-18,1735.29,"[{""description"":""Contractor"",""amount"":1735.29}]",SEO,Client Services,2024-12-20 21:53:37
+NS-VB-0000010,VEND-0023,2024-08-21,1497.81,"[{""description"":""Software"",""amount"":1497.81}]",Paid Media,Creative,2025-05-29 22:06:54
+NS-VB-0000011,VEND-0013,2024-06-22,2816.81,"[{""description"":""Ad Spend"",""amount"":2816.81}]",Paid Media,Client Services,2024-05-02 22:54:39
+NS-VB-0000012,VEND-0018,2024-06-04,4016.9,"[{""description"":""Contractor"",""amount"":4016.9}]",Content,Finance,2025-04-14 22:21:45
+NS-VB-0000013,VEND-0013,2025-11-15,1636.42,"[{""description"":""Contractor"",""amount"":1636.42}]",Web Dev,Client Services,2024-07-18 04:01:48
+NS-VB-0000014,VEND-0019,2024-07-10,2195.44,"[{""description"":""Software"",""amount"":2195.44}]",Paid Media,Leadership,2025-12-17 23:21:40
+NS-VB-0000015,VEND-0033,2026-02-09,2087.42,"[{""description"":""Contractor"",""amount"":2087.42}]",SEO,Leadership,2026-03-19 21:29:01
+NS-VB-0000016,VEND-0034,2025-10-27,5494.14,"[{""description"":""Software"",""amount"":5494.14}]",SEO,Operations,2024-04-30 20:25:06
+NS-VB-0000017,VEND-0012,2025-06-05,3381.65,"[{""description"":""Ad Spend"",""amount"":3381.65}]",Content,Client Services,2025-02-15 19:18:16
+NS-VB-0000018,VEND-0031,2025-03-24,5106.11,"[{""description"":""Software"",""amount"":5106.11}]",Web Dev,Operations,2025-09-16 16:32:42
+NS-VB-0000019,VEND-0003,2024-07-13,5801.33,"[{""description"":""Contractor"",""amount"":5801.33}]",Email,Client Services,2024-10-13 11:49:56
+NS-VB-0000020,VEND-0033,2025-12-31,3862.2,"[{""description"":""Software"",""amount"":3862.2}]",Web Dev,Operations,2025-09-12 23:27:05
+NS-VB-0000021,VEND-0007,2025-07-04,1344.79,"[{""description"":""Software"",""amount"":1344.79}]",Content,Leadership,2026-01-09 23:03:46
+NS-VB-0000022,VEND-0009,2025-03-29,2673.78,"[{""description"":""Ad Spend"",""amount"":2673.78}]",Email,Finance,2025-04-13 23:49:43
+NS-VB-0000023,VEND-0033,2024-09-29,3125.66,"[{""description"":""Software"",""amount"":3125.66}]",Social,Operations,2024-12-22 17:21:58
+NS-VB-0000024,VEND-0016,2025-01-15,4228.95,"[{""description"":""Ad Spend"",""amount"":4228.95}]",Paid Media,Operations,2025-08-21 14:24:59
+NS-VB-0000025,VEND-0009,2026-02-01,2587.64,"[{""description"":""Ad Spend"",""amount"":2587.64}]",Analytics,Finance,2024-04-14 15:02:34
+NS-VB-0000026,VEND-0013,2025-12-26,5954.9,"[{""description"":""Contractor"",""amount"":5954.9}]",Web Dev,Client Services,2026-03-13 23:00:44
+NS-VB-0000027,VEND-0018,2025-06-13,2969.67,"[{""description"":""Contractor"",""amount"":2969.67}]",Analytics,Operations,2026-02-26 18:29:49
+NS-VB-0000028,VEND-0001,2026-01-04,4558.94,"[{""description"":""Ad Spend"",""amount"":4558.94}]",Email,Client Services,2024-09-04 18:21:11
+NS-VB-0000029,VEND-0017,2025-04-23,859.33,"[{""description"":""Contractor"",""amount"":859.33}]",Email,Media,2025-10-15 15:10:13
+NS-VB-0000030,VEND-0019,2025-07-18,3426.7,"[{""description"":""Software"",""amount"":3426.7}]",SEO,Finance,2025-10-01 05:17:05
+NS-VB-0000031,VEND-0004,2025-11-22,1668.75,"[{""description"":""Software"",""amount"":1668.75}]",Paid Media,Media,2025-03-04 21:14:29
+NS-VB-0000032,VEND-0023,2025-11-15,3430.65,"[{""description"":""Ad Spend"",""amount"":3430.65}]",Social,Operations,2025-03-31 02:03:29
+NS-VB-0000033,VEND-0022,2025-08-18,3891.69,"[{""description"":""Contractor"",""amount"":3891.69}]",Paid Media,Creative,2025-08-20 10:34:04
+NS-VB-0000034,VEND-0017,2025-02-16,3036.53,"[{""description"":""Contractor"",""amount"":3036.53}]",Analytics,Finance,2025-02-04 13:03:44
+NS-VB-0000035,VEND-0027,2024-06-23,3243.02,"[{""description"":""Software"",""amount"":3243.02}]",Web Dev,Leadership,2025-08-23 00:29:10
+NS-VB-0000036,VEND-0011,2025-10-25,3619.06,"[{""description"":""Software"",""amount"":3619.06}]",Analytics,Leadership,2026-03-27 06:49:34
+NS-VB-0000037,VEND-0012,2024-05-17,3278.56,"[{""description"":""Ad Spend"",""amount"":3278.56}]",Email,Creative,2025-10-05 13:47:33
+NS-VB-0000038,VEND-0008,2024-09-23,5421.26,"[{""description"":""Contractor"",""amount"":5421.26}]",Paid Media,Creative,2024-10-04 09:36:39
+NS-VB-0000039,VEND-0028,2025-03-09,1376.56,"[{""description"":""Contractor"",""amount"":1376.56}]",Email,Media,2025-02-22 11:20:18
+NS-VB-0000040,VEND-0028,2024-09-24,4405.83,"[{""description"":""Software"",""amount"":4405.83}]",Web Dev,Leadership,2025-04-16 09:05:48
+NS-VB-0000041,VEND-0026,2024-10-28,258.06,"[{""description"":""Software"",""amount"":258.06}]",Content,Finance,2024-09-13 16:39:40
+NS-VB-0000042,VEND-0018,2024-11-20,5845.36,"[{""description"":""Contractor"",""amount"":5845.36}]",Content,Finance,2025-03-31 15:19:35
+NS-VB-0000043,VEND-0015,2025-04-18,1007.37,"[{""description"":""Software"",""amount"":1007.37}]",Social,Creative,2024-05-29 18:40:49
+NS-VB-0000044,VEND-0023,2024-11-22,2035.91,"[{""description"":""Contractor"",""amount"":2035.91}]",Analytics,Leadership,2024-12-08 20:46:22
+NS-VB-0000045,VEND-0033,2024-07-20,3826.77,"[{""description"":""Contractor"",""amount"":3826.77}]",Email,Operations,2024-10-26 23:29:23
+NS-VB-0000046,VEND-0018,2024-09-22,4294.94,"[{""description"":""Ad Spend"",""amount"":4294.94}]",Social,Client Services,2025-09-26 21:56:26
+NS-VB-0000047,VEND-0034,2024-06-13,1853.13,"[{""description"":""Software"",""amount"":1853.13}]",Social,Creative,2025-02-23 14:20:21
+NS-VB-0000048,VEND-0008,2024-12-27,2040.9,"[{""description"":""Contractor"",""amount"":2040.9}]",Social,Client Services,2025-12-01 06:42:02
+NS-VB-0000049,VEND-0028,2024-07-03,3770.09,"[{""description"":""Software"",""amount"":3770.09}]",Content,Creative,2024-10-22 01:43:45
+NS-VB-0000050,VEND-0021,2024-07-07,2526.62,"[{""description"":""Ad Spend"",""amount"":2526.62}]",Analytics,Media,2025-11-22 12:48:49
+NS-VB-0000051,VEND-0008,2024-06-08,2699.61,"[{""description"":""Contractor"",""amount"":2699.61}]",Web Dev,Operations,2025-05-12 22:14:46
+NS-VB-0000052,VEND-0001,2024-07-21,2646.59,"[{""description"":""Ad Spend"",""amount"":2646.59}]",Email,Creative,2024-12-25 08:08:39
+NS-VB-0000053,VEND-0004,2024-10-26,4936.33,"[{""description"":""Ad Spend"",""amount"":4936.33}]",Web Dev,Creative,2026-01-06 22:50:45
+NS-VB-0000054,VEND-0021,2026-02-16,652.29,"[{""description"":""Contractor"",""amount"":652.29}]",Web Dev,Leadership,2025-08-06 07:10:22
+NS-VB-0000055,VEND-0018,2025-10-19,1159.43,"[{""description"":""Ad Spend"",""amount"":1159.43}]",Paid Media,Finance,2024-10-31 19:33:27
+NS-VB-0000056,VEND-0014,2024-09-18,4782.5,"[{""description"":""Software"",""amount"":4782.5}]",Analytics,Leadership,2025-07-06 22:18:51
+NS-VB-0000057,VEND-0027,2025-10-06,2955.64,"[{""description"":""Contractor"",""amount"":2955.64}]",SEO,Finance,2025-07-28 20:30:22
+NS-VB-0000058,VEND-0028,2024-10-10,4632.81,"[{""description"":""Contractor"",""amount"":4632.81}]",Social,Client Services,2024-05-31 01:28:14
+NS-VB-0000059,VEND-0003,2024-06-16,5264.33,"[{""description"":""Software"",""amount"":5264.33}]",SEO,Creative,2024-08-27 09:24:36
+NS-VB-0000060,VEND-0005,2025-05-23,3388.26,"[{""description"":""Software"",""amount"":3388.26}]",Analytics,Creative,2025-03-03 10:27:11
+NS-VB-0000061,VEND-0034,2025-07-22,2342.16,"[{""description"":""Software"",""amount"":2342.16}]",Web Dev,Leadership,2025-04-09 04:52:31
+NS-VB-0000062,VEND-0021,2025-12-10,5581.98,"[{""description"":""Software"",""amount"":5581.98}]",Content,Operations,2026-02-09 20:07:22
+NS-VB-0000063,VEND-0010,2026-03-10,2168.54,"[{""description"":""Software"",""amount"":2168.54}]",SEO,Finance,2026-02-17 10:25:50
+NS-VB-0000064,VEND-0018,2025-01-03,2984.65,"[{""description"":""Contractor"",""amount"":2984.65}]",Analytics,Operations,2025-08-01 09:33:28
+NS-VB-0000065,VEND-0009,2024-04-08,956.05,"[{""description"":""Ad Spend"",""amount"":956.05}]",Social,Media,2025-10-30 19:18:47
+NS-VB-0000066,VEND-0020,2025-08-27,2461.26,"[{""description"":""Contractor"",""amount"":2461.26}]",Email,Client Services,2024-06-18 21:56:59
+NS-VB-0000067,VEND-0034,2024-07-21,4191.61,"[{""description"":""Software"",""amount"":4191.61}]",Web Dev,Operations,2025-10-22 15:33:42
+NS-VB-0000068,VEND-0010,2024-06-23,5564.1,"[{""description"":""Contractor"",""amount"":5564.1}]",Content,Leadership,2024-04-29 19:21:46
+NS-VB-0000069,VEND-0023,2025-10-03,5889.52,"[{""description"":""Software"",""amount"":5889.52}]",Social,Leadership,2026-01-07 23:12:56
+NS-VB-0000070,VEND-0016,2024-05-23,1422.42,"[{""description"":""Ad Spend"",""amount"":1422.42}]",Social,Operations,2025-03-15 08:41:39
+NS-VB-0000071,VEND-0009,2025-04-12,5267.3,"[{""description"":""Ad Spend"",""amount"":5267.3}]",Paid Media,Operations,2024-08-16 09:46:58
+NS-VB-0000072,VEND-0024,2025-01-24,1669.96,"[{""description"":""Software"",""amount"":1669.96}]",Web Dev,Leadership,2025-04-29 10:04:28
+NS-VB-0000073,VEND-0026,2025-06-26,1838.14,"[{""description"":""Ad Spend"",""amount"":1838.14}]",Web Dev,Finance,2025-07-14 03:49:35
+NS-VB-0000074,VEND-0022,2026-03-04,5012.46,"[{""description"":""Ad Spend"",""amount"":5012.46}]",Social,Finance,2025-09-20 02:08:38
+NS-VB-0000075,VEND-0033,2024-08-20,5638.23,"[{""description"":""Ad Spend"",""amount"":5638.23}]",Web Dev,Operations,2025-01-12 17:36:24
+NS-VB-0000076,VEND-0018,2025-03-12,550.85,"[{""description"":""Software"",""amount"":550.85}]",SEO,Media,2025-07-09 21:23:32
+NS-VB-0000077,VEND-0007,2025-10-08,2133.46,"[{""description"":""Software"",""amount"":2133.46}]",Content,Finance,2025-05-22 07:58:44
+NS-VB-0000078,VEND-0016,2025-09-25,3192.08,"[{""description"":""Contractor"",""amount"":3192.08}]",Analytics,Leadership,2024-12-13 23:38:21
+NS-VB-0000079,VEND-0018,2024-05-17,3486.63,"[{""description"":""Software"",""amount"":3486.63}]",Web Dev,Operations,2024-12-24 23:37:00
+NS-VB-0000080,VEND-0003,2025-03-03,4713.77,"[{""description"":""Software"",""amount"":4713.77}]",SEO,Media,2024-12-06 01:29:20
+NS-VB-0000081,VEND-0017,2025-05-20,4392.91,"[{""description"":""Contractor"",""amount"":4392.91}]",Analytics,Leadership,2024-09-07 01:00:57
+NS-VB-0000082,VEND-0015,2024-06-11,5036.76,"[{""description"":""Software"",""amount"":5036.76}]",Email,Operations,2025-08-20 05:37:22
+NS-VB-0000083,VEND-0027,2024-11-07,745.81,"[{""description"":""Contractor"",""amount"":745.81}]",Paid Media,Creative,2025-10-12 13:56:05
+NS-VB-0000084,VEND-0018,2026-03-24,5005.9,"[{""description"":""Contractor"",""amount"":5005.9}]",Analytics,Client Services,2025-04-09 21:46:25
+NS-VB-0000085,VEND-0016,2025-02-05,5687.66,"[{""description"":""Software"",""amount"":5687.66}]",Analytics,Client Services,2024-12-21 07:25:46
+NS-VB-0000086,VEND-0030,2025-08-23,2255.66,"[{""description"":""Software"",""amount"":2255.66}]",SEO,Client Services,2025-08-25 11:24:16
+NS-VB-0000087,VEND-0022,2026-02-06,792.27,"[{""description"":""Contractor"",""amount"":792.27}]",Content,Operations,2025-03-16 00:49:36
+NS-VB-0000088,VEND-0017,2025-08-04,4634.02,"[{""description"":""Ad Spend"",""amount"":4634.02}]",Social,Client Services,2025-12-23 14:25:14
+NS-VB-0000089,VEND-0035,2024-05-20,1685.13,"[{""description"":""Software"",""amount"":1685.13}]",Paid Media,Creative,2024-12-26 10:53:54
+NS-VB-0000090,VEND-0033,2025-03-17,2889.55,"[{""description"":""Software"",""amount"":2889.55}]",Web Dev,Media,2024-06-16 09:51:58
+NS-VB-0000091,VEND-0032,2025-08-10,2154.26,"[{""description"":""Software"",""amount"":2154.26}]",SEO,Operations,2025-05-16 11:36:05
+NS-VB-0000092,VEND-0024,2025-04-24,5271.89,"[{""description"":""Software"",""amount"":5271.89}]",Paid Media,Finance,2025-08-26 09:47:45
+NS-VB-0000093,VEND-0010,2025-05-09,1037.14,"[{""description"":""Contractor"",""amount"":1037.14}]",Content,Media,2024-12-24 05:13:14
+NS-VB-0000094,VEND-0023,2024-09-07,253.27,"[{""description"":""Software"",""amount"":253.27}]",Social,Finance,2024-11-16 20:27:19
+NS-VB-0000095,VEND-0033,2024-11-12,2268.43,"[{""description"":""Ad Spend"",""amount"":2268.43}]",Social,Operations,2025-02-03 07:58:44
+NS-VB-0000096,VEND-0034,2026-02-09,1059.0,"[{""description"":""Software"",""amount"":1059.0}]",Social,Leadership,2024-06-27 01:10:00

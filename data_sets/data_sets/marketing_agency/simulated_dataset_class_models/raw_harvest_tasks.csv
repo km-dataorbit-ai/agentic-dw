@@ -1,0 +1,8 @@
+id,name,is_default,default_hourly_rate,is_active
+3000000,Strategy,True,116.71,True
+3000001,Design,False,192.75,True
+3000002,Copywriting,False,163.6,True
+3000003,Development,False,197.55,True
+3000004,Reporting,False,203.51,True
+3000005,QA,False,119.75,True
+3000006,Client Communication,False,158.71,True

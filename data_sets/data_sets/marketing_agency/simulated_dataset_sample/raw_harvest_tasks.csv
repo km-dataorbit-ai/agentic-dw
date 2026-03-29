@@ -1,0 +1,8 @@
+_dataorbit_sync_id,_dataorbit_synced_at,id,name,is_default,default_hourly_rate,is_active
+41d8825d-e30a-43b8-b74d-fe76d5bfdc83,2026-03-27 17:33:21,3000000,Strategy,True,120.12,True
+04214596-fe50-4d49-9d69-d23d4bfce9ac,2026-03-27 17:33:21,3000001,Design,False,145.62,True
+1fc9e558-74bd-4452-b127-bf2113bd9e3e,2026-03-27 17:33:21,3000002,Copywriting,False,182.09,True
+a18c2efe-5830-42de-9bd8-22f8e9d2b578,2026-03-27 17:33:21,3000003,Development,False,123.07,True
+0dc5b46d-3f15-4216-945c-8a4f0c3ff4ea,2026-03-27 17:33:21,3000004,Reporting,False,135.35,True
+3e6ed8cc-f4dc-4dce-89f7-e7397f18fcdb,2026-03-27 17:33:21,3000005,QA,False,180.94,True
+5f9743d8-4ea7-44f3-af70-2002b502ddd5,2026-03-27 17:33:21,3000006,Client Communication,False,195.29,True

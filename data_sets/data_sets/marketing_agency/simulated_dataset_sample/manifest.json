@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-27 17:33:21",
+  "seed": 42,
+  "parameters": {
+    "companies": 120,
+    "employees": 65,
+    "years": 2,
+    "time_entries": 5000
+  },
+  "files": {
+    "raw_hubspot_companies.csv": 120,
+    "raw_hubspot_contacts.csv": 463,
+    "raw_hubspot_deals.csv": 304,
+    "raw_hubspot_owners.csv": 10,
+    "raw_netsuite_customers.csv": 120,
+    "raw_netsuite_invoices.csv": 74,
+    "raw_netsuite_payments.csv": 56,
+    "raw_netsuite_vendor_bills.csv": 96,
+    "raw_harvest_clients.csv": 120,
+    "raw_harvest_projects.csv": 74,
+    "raw_harvest_users.csv": 65,
+    "raw_harvest_tasks.csv": 7,
+    "raw_harvest_project_assignments.csv": 354,
+    "raw_harvest_time_entries.csv": 5000,
+    "raw_bamboohr_employees.csv": 65,
+    "raw_bamboohr_time_off.csv": 194
+  }
+}

@@ -1,0 +1,97 @@
+_dataorbit_sync_id,_dataorbit_synced_at,id,entity_id,tran_date,total,line_items,class,department,last_modified_date
+7ad75054-e5b5-4ef1-8d64-78eefb5498ff,2026-03-27 17:33:21,NS-VB-0000001,VEND-0029,2024-09-21,5142.24,"[{""description"":""Contractor"",""amount"":5142.24}]",Social,Creative,2025-09-23 09:22:17
+bac0f95b-6e63-472d-a74a-166be7419e0f,2026-03-27 17:33:21,NS-VB-0000002,VEND-0035,2024-07-18,2970.58,"[{""description"":""Ad Spend"",""amount"":2970.58}]",Email,Client Services,2024-12-31 11:36:59
+6793213e-8b90-4058-87c7-4fecc1fe7901,2026-03-27 17:33:21,NS-VB-0000003,VEND-0017,2024-05-28,3520.93,"[{""description"":""Software"",""amount"":3520.93}]",Email,Finance,2026-02-20 15:56:49
+e188d384-e8d5-4eab-a5dd-07b70fb8d939,2026-03-27 17:33:21,NS-VB-0000004,VEND-0003,2024-08-21,1481.89,"[{""description"":""Software"",""amount"":1481.89}]",Paid Media,Leadership,2025-04-09 03:31:51
+8d8b216f-452f-4acc-8444-8af8521ec86b,2026-03-27 17:33:21,NS-VB-0000005,VEND-0028,2025-06-12,400.98,"[{""description"":""Ad Spend"",""amount"":400.98}]",Content,Creative,2025-01-23 00:47:32
+f67a2c96-7bff-4a02-bcd2-6d0a02b182b3,2026-03-27 17:33:21,NS-VB-0000006,VEND-0016,2025-11-26,473.69,"[{""description"":""Ad Spend"",""amount"":473.69}]",Paid Media,Media,2025-06-02 16:05:36
+8107c540-1465-4b87-9171-43a9987ffb49,2026-03-27 17:33:21,NS-VB-0000007,VEND-0013,2024-04-16,2912.57,"[{""description"":""Software"",""amount"":2912.57}]",Content,Client Services,2025-05-11 23:00:51
+98061d35-6ffc-4f29-9324-7aa1b30c56c3,2026-03-27 17:33:21,NS-VB-0000008,VEND-0008,2024-09-23,1751.4,"[{""description"":""Contractor"",""amount"":1751.4}]",Email,Operations,2025-11-03 14:36:12
+c9300e44-da3d-4716-8571-6e7c7f732e06,2026-03-27 17:33:21,NS-VB-0000009,VEND-0010,2025-02-17,624.21,"[{""description"":""Contractor"",""amount"":624.21}]",Content,Client Services,2025-02-01 14:07:35
+2a0d5c2c-0bad-46eb-8046-93299bb9a8da,2026-03-27 17:33:21,NS-VB-0000010,VEND-0031,2025-07-26,5674.82,"[{""description"":""Ad Spend"",""amount"":5674.82}]",Content,Operations,2025-02-03 17:11:42
+e3395645-31f4-437b-99d5-a8da61416a7b,2026-03-27 17:33:21,NS-VB-0000011,VEND-0023,2025-08-30,3656.6,"[{""description"":""Software"",""amount"":3656.6}]",Analytics,Creative,2025-12-15 07:46:56
+74eb973b-5fb0-435c-87cf-e8156ddeb695,2026-03-27 17:33:21,NS-VB-0000012,VEND-0034,2025-02-13,4014.04,"[{""description"":""Software"",""amount"":4014.04}]",SEO,Client Services,2025-03-23 23:10:30
+fb5e61aa-420b-40b9-b9cc-38a897623617,2026-03-27 17:33:21,NS-VB-0000013,VEND-0020,2025-11-03,3383.62,"[{""description"":""Ad Spend"",""amount"":3383.62}]",Email,Leadership,2025-10-01 19:07:24
+137e0e85-7e5b-408b-9a23-844c8bd933b7,2026-03-27 17:33:21,NS-VB-0000014,VEND-0001,2024-04-14,2226.22,"[{""description"":""Ad Spend"",""amount"":2226.22}]",Email,Finance,2025-12-18 06:30:14
+28816216-7571-472f-8ff3-ee537369bb75,2026-03-27 17:33:21,NS-VB-0000015,VEND-0028,2024-08-01,5490.86,"[{""description"":""Software"",""amount"":5490.86}]",Social,Leadership,2025-06-12 06:06:36
+257eee20-0889-4ff3-bdd5-1a600a083891,2026-03-27 17:33:21,NS-VB-0000016,VEND-0018,2025-10-13,4737.15,"[{""description"":""Contractor"",""amount"":4737.15}]",Analytics,Media,2025-09-14 17:41:50
+83afc946-0ea8-416e-98b5-a4a0a31ecddc,2026-03-27 17:33:21,NS-VB-0000017,VEND-0005,2026-03-10,5589.19,"[{""description"":""Software"",""amount"":5589.19}]",Email,Client Services,2024-11-23 20:56:18
+bd0e521f-7cf7-47a4-b7f1-db713f6fee46,2026-03-27 17:33:21,NS-VB-0000018,VEND-0015,2024-10-27,4569.87,"[{""description"":""Software"",""amount"":4569.87}]",Social,Finance,2025-04-10 14:19:20
+fd0cbf8d-5730-47e0-9cea-b3c1106f7592,2026-03-27 17:33:21,NS-VB-0000019,VEND-0019,2025-03-08,1748.32,"[{""description"":""Software"",""amount"":1748.32}]",Paid Media,Operations,2026-01-09 20:35:55
+49f8aebf-e483-4bf6-b660-942151c96f3e,2026-03-27 17:33:21,NS-VB-0000020,VEND-0026,2025-05-30,3768.94,"[{""description"":""Ad Spend"",""amount"":3768.94}]",Social,Client Services,2025-04-10 05:53:46
+ea8e6eec-c90c-4396-894c-3ac8d7e942d8,2026-03-27 17:33:21,NS-VB-0000021,VEND-0029,2024-10-31,4371.35,"[{""description"":""Software"",""amount"":4371.35}]",Paid Media,Creative,2024-07-30 13:16:37
+24ec0145-0a0f-42a6-a1cd-f7037037c52b,2026-03-27 17:33:21,NS-VB-0000022,VEND-0020,2025-11-02,4231.16,"[{""description"":""Software"",""amount"":4231.16}]",Social,Leadership,2024-06-01 10:07:16
+d21796a1-44c1-47d1-94da-c59e390c97de,2026-03-27 17:33:21,NS-VB-0000023,VEND-0016,2025-04-29,5615.78,"[{""description"":""Ad Spend"",""amount"":5615.78}]",SEO,Creative,2025-04-17 14:10:15
+956fb412-d033-45a9-9646-0d3f114ad755,2026-03-27 17:33:21,NS-VB-0000024,VEND-0024,2026-03-15,944.5,"[{""description"":""Contractor"",""amount"":944.5}]",SEO,Operations,2026-01-11 00:29:30
+b1aa3b2d-1126-43d3-980c-d32bef5ed2d4,2026-03-27 17:33:21,NS-VB-0000025,VEND-0031,2025-01-21,4858.86,"[{""description"":""Contractor"",""amount"":4858.86}]",Web Dev,Leadership,2025-06-08 00:40:47
+dcd8b348-12d4-48f9-82fe-dfc1387880c5,2026-03-27 17:33:21,NS-VB-0000026,VEND-0003,2025-07-20,5159.86,"[{""description"":""Software"",""amount"":5159.86}]",SEO,Media,2024-12-31 01:35:33
+28d48832-e5c2-4bc9-8a43-81d3842693ba,2026-03-27 17:33:21,NS-VB-0000027,VEND-0025,2025-07-23,5244.41,"[{""description"":""Contractor"",""amount"":5244.41}]",Email,Leadership,2024-04-04 07:40:26
+fb39e8f9-f946-483d-8936-1ac22736820d,2026-03-27 17:33:21,NS-VB-0000028,VEND-0034,2025-11-27,5594.27,"[{""description"":""Ad Spend"",""amount"":5594.27}]",Paid Media,Client Services,2025-04-18 12:11:06
+15122689-11cf-430e-8e9c-83eccabb8347,2026-03-27 17:33:21,NS-VB-0000029,VEND-0004,2025-04-10,5253.27,"[{""description"":""Ad Spend"",""amount"":5253.27}]",Web Dev,Finance,2026-01-23 16:21:25
+d5e87987-8746-4168-a2a0-7f34d25642c1,2026-03-27 17:33:21,NS-VB-0000030,VEND-0023,2024-07-02,4151.86,"[{""description"":""Software"",""amount"":4151.86}]",Email,Media,2026-03-18 11:38:49
+8e1e62ef-01b7-48da-b679-3f04f076acc5,2026-03-27 17:33:21,NS-VB-0000031,VEND-0011,2024-08-21,1431.41,"[{""description"":""Ad Spend"",""amount"":1431.41}]",Analytics,Media,2024-10-12 16:18:20
+7044e3c9-8433-4283-8c15-9e547b71b3c9,2026-03-27 17:33:21,NS-VB-0000032,VEND-0028,2025-05-04,2232.14,"[{""description"":""Software"",""amount"":2232.14}]",Paid Media,Creative,2024-08-15 16:54:59
+29fb3498-fb6b-4f26-a2f3-eaaf7685c46f,2026-03-27 17:33:21,NS-VB-0000033,VEND-0035,2025-11-16,711.11,"[{""description"":""Contractor"",""amount"":711.11}]",Content,Media,2025-11-13 07:32:31
+c5780a29-2969-4ee4-b7b8-5db681cab273,2026-03-27 17:33:21,NS-VB-0000034,VEND-0024,2025-12-31,1258.78,"[{""description"":""Contractor"",""amount"":1258.78}]",SEO,Operations,2025-02-02 23:52:14
+9131096f-6b63-41eb-bc83-4626572d6b19,2026-03-27 17:33:21,NS-VB-0000035,VEND-0014,2024-08-26,3658.23,"[{""description"":""Ad Spend"",""amount"":3658.23}]",Paid Media,Finance,2024-05-28 04:45:52
+7c0369b3-21d0-429a-a1bb-8a5c5ad2dd8e,2026-03-27 17:33:21,NS-VB-0000036,VEND-0021,2025-05-06,2688.62,"[{""description"":""Contractor"",""amount"":2688.62}]",SEO,Operations,2024-04-07 00:44:48
+ab4e7104-f9b3-4cbb-8b40-4397bb775b0f,2026-03-27 17:33:21,NS-VB-0000037,VEND-0028,2025-04-03,4467.35,"[{""description"":""Contractor"",""amount"":4467.35}]",Content,Leadership,2024-05-17 08:19:45
+f7a7c976-ed9e-477f-8d65-aa70618dd4a8,2026-03-27 17:33:21,NS-VB-0000038,VEND-0014,2026-03-13,5060.95,"[{""description"":""Software"",""amount"":5060.95}]",SEO,Leadership,2025-11-27 16:06:14
+ab32d64d-983c-4c66-ac14-73c5395d3f44,2026-03-27 17:33:21,NS-VB-0000039,VEND-0034,2026-01-20,4875.8,"[{""description"":""Software"",""amount"":4875.8}]",Content,Client Services,2025-09-26 06:26:48
+e847b0b0-92da-44cb-b7a4-1efa1a32971f,2026-03-27 17:33:21,NS-VB-0000040,VEND-0005,2024-10-28,3941.55,"[{""description"":""Software"",""amount"":3941.55}]",Analytics,Creative,2024-04-16 01:09:21
+009cef7c-884f-4cec-8e7c-6594bbb5c8b9,2026-03-27 17:33:21,NS-VB-0000041,VEND-0015,2024-04-22,2348.17,"[{""description"":""Contractor"",""amount"":2348.17}]",Paid Media,Client Services,2024-10-27 15:17:34
+1ccb66da-2aa8-4331-99dd-b218d9d22ab2,2026-03-27 17:33:21,NS-VB-0000042,VEND-0029,2025-05-09,924.16,"[{""description"":""Contractor"",""amount"":924.16}]",Email,Finance,2025-11-06 06:18:30
+94a3d950-0cb5-4ee4-82de-e08249a29586,2026-03-27 17:33:21,NS-VB-0000043,VEND-0026,2024-08-09,5349.46,"[{""description"":""Ad Spend"",""amount"":5349.46}]",Email,Finance,2026-03-27 05:02:48
+ae39af2f-6b26-4d8f-a27c-c0add0c24f59,2026-03-27 17:33:21,NS-VB-0000044,VEND-0012,2025-07-29,193.55,"[{""description"":""Contractor"",""amount"":193.55}]",Content,Client Services,2025-01-01 19:58:13
+56e0c946-d86c-454b-9292-bfc30ead3241,2026-03-27 17:33:21,NS-VB-0000045,VEND-0023,2025-10-30,587.1,"[{""description"":""Ad Spend"",""amount"":587.1}]",Content,Operations,2026-01-28 02:30:51
+36fe497a-7b32-4745-a08d-a68809cf8a8a,2026-03-27 17:33:21,NS-VB-0000046,VEND-0013,2026-02-01,3423.85,"[{""description"":""Contractor"",""amount"":3423.85}]",SEO,Finance,2024-06-10 06:08:34
+94413a95-c765-40bb-b280-051f23091e45,2026-03-27 17:33:21,NS-VB-0000047,VEND-0004,2025-10-24,3967.78,"[{""description"":""Software"",""amount"":3967.78}]",Social,Leadership,2025-05-26 01:22:10
+56f441d1-1c2a-4692-b9b7-e8b5904566d3,2026-03-27 17:33:21,NS-VB-0000048,VEND-0034,2025-03-29,4504.12,"[{""description"":""Contractor"",""amount"":4504.12}]",Web Dev,Media,2024-10-18 08:31:01
+5975eea1-767c-427d-8b28-30dad76081e5,2026-03-27 17:33:21,NS-VB-0000049,VEND-0005,2024-07-07,5624.11,"[{""description"":""Contractor"",""amount"":5624.11}]",Content,Media,2024-04-08 17:35:32
+42179504-b9a7-4d4f-9a7e-3d69ff5215dc,2026-03-27 17:33:21,NS-VB-0000050,VEND-0035,2024-07-26,5262.25,"[{""description"":""Software"",""amount"":5262.25}]",Content,Media,2025-03-19 06:58:25
+b69ac534-289b-4740-9883-9c64f309ae86,2026-03-27 17:33:21,NS-VB-0000051,VEND-0012,2026-01-14,3789.9,"[{""description"":""Software"",""amount"":3789.9}]",Social,Client Services,2025-09-12 14:22:22
+fd2ba75e-ba6b-49eb-9131-c01ef772c190,2026-03-27 17:33:21,NS-VB-0000052,VEND-0030,2025-03-10,1632.9,"[{""description"":""Software"",""amount"":1632.9}]",Email,Operations,2024-04-25 10:02:24
+49ac9470-c993-4363-9df0-d00f651385f1,2026-03-27 17:33:21,NS-VB-0000053,VEND-0010,2025-04-16,2484.8,"[{""description"":""Ad Spend"",""amount"":2484.8}]",SEO,Leadership,2024-05-03 11:14:45
+f2d9543c-52b3-4cec-8224-25f31ed4ad5c,2026-03-27 17:33:21,NS-VB-0000054,VEND-0001,2025-03-11,2446.11,"[{""description"":""Contractor"",""amount"":2446.11}]",Social,Media,2024-10-25 04:00:55
+ce9fb61d-5f20-45e9-8038-9b6204219798,2026-03-27 17:33:21,NS-VB-0000055,VEND-0007,2024-06-23,2439.32,"[{""description"":""Software"",""amount"":2439.32}]",SEO,Client Services,2024-07-13 07:54:43
+df3ea089-6023-4a2d-8aa1-09eea00788f7,2026-03-27 17:33:21,NS-VB-0000056,VEND-0015,2024-05-07,4705.06,"[{""description"":""Software"",""amount"":4705.06}]",SEO,Operations,2025-01-28 07:54:13
+ee3b3e65-a20a-442c-8cc8-5564d9adc496,2026-03-27 17:33:21,NS-VB-0000057,VEND-0025,2024-06-21,2343.6,"[{""description"":""Software"",""amount"":2343.6}]",Analytics,Client Services,2026-01-14 04:20:40
+327f1a32-9341-45e5-9782-280a73cb0080,2026-03-27 17:33:21,NS-VB-0000058,VEND-0023,2025-03-23,320.2,"[{""description"":""Contractor"",""amount"":320.2}]",SEO,Finance,2026-01-18 22:38:04
+3fbcff23-a635-4d31-9840-3e051c8d1cab,2026-03-27 17:33:21,NS-VB-0000059,VEND-0030,2025-03-22,3916.93,"[{""description"":""Software"",""amount"":3916.93}]",Content,Operations,2025-05-19 11:22:14
+5d65d11d-842c-4864-8678-631895444486,2026-03-27 17:33:21,NS-VB-0000060,VEND-0031,2024-08-15,1394.65,"[{""description"":""Contractor"",""amount"":1394.65}]",Social,Creative,2025-06-24 01:20:49
+4c1b0e0c-15d5-400e-a20e-9af71018c73d,2026-03-27 17:33:21,NS-VB-0000061,VEND-0020,2025-12-18,5571.47,"[{""description"":""Software"",""amount"":5571.47}]",Content,Creative,2025-03-21 07:41:33
+e8d63193-dc22-44cc-a48e-898709037ba3,2026-03-27 17:33:21,NS-VB-0000062,VEND-0003,2025-10-22,5276.6,"[{""description"":""Contractor"",""amount"":5276.6}]",Paid Media,Media,2026-02-01 03:48:38
+c8ee2dc5-4f62-43b5-8d9f-4701e16ea390,2026-03-27 17:33:21,NS-VB-0000063,VEND-0025,2025-10-21,633.5,"[{""description"":""Ad Spend"",""amount"":633.5}]",Email,Client Services,2024-04-17 15:07:49
+53466610-f358-4282-a00a-6f5f6a519ec8,2026-03-27 17:33:21,NS-VB-0000064,VEND-0018,2025-11-05,2815.08,"[{""description"":""Software"",""amount"":2815.08}]",SEO,Media,2024-08-20 04:55:45
+77c0cf31-4b25-49b7-9b18-cf6e604e53ad,2026-03-27 17:33:21,NS-VB-0000065,VEND-0015,2025-07-12,4102.12,"[{""description"":""Ad Spend"",""amount"":4102.12}]",SEO,Client Services,2024-05-24 10:02:38
+0e51f0b1-d1a9-4211-9250-f5778262641b,2026-03-27 17:33:21,NS-VB-0000066,VEND-0009,2024-06-17,3548.19,"[{""description"":""Software"",""amount"":3548.19}]",Social,Operations,2025-11-09 12:40:04
+0af6d3dd-c699-4acc-9049-533d717c714f,2026-03-27 17:33:21,NS-VB-0000067,VEND-0032,2024-05-06,931.9,"[{""description"":""Software"",""amount"":931.9}]",Paid Media,Leadership,2026-03-21 11:39:27
+0f4000c8-466a-45b1-832b-be387ce9b9fd,2026-03-27 17:33:21,NS-VB-0000068,VEND-0015,2024-09-07,788.04,"[{""description"":""Ad Spend"",""amount"":788.04}]",SEO,Finance,2026-03-01 15:09:11
+02525ba2-a2c6-4867-b0a8-1c8cdb61ed03,2026-03-27 17:33:21,NS-VB-0000069,VEND-0017,2024-09-22,1573.7,"[{""description"":""Software"",""amount"":1573.7}]",Paid Media,Creative,2025-04-12 22:08:47
+b5cd6fd4-d6fa-46c7-a38b-523dc426852c,2026-03-27 17:33:21,NS-VB-0000070,VEND-0001,2024-09-26,5540.01,"[{""description"":""Ad Spend"",""amount"":5540.01}]",Content,Operations,2024-09-12 04:15:48
+c9db6fe1-6ba6-42f9-95c7-5c584b44b07a,2026-03-27 17:33:21,NS-VB-0000071,VEND-0012,2025-09-07,4466.17,"[{""description"":""Contractor"",""amount"":4466.17}]",Web Dev,Media,2025-08-01 10:54:38
+1b1209b9-4f93-43c3-80f7-351e6b7e7ef2,2026-03-27 17:33:21,NS-VB-0000072,VEND-0027,2025-10-20,4848.26,"[{""description"":""Software"",""amount"":4848.26}]",Web Dev,Finance,2025-01-26 17:45:14
+73fe4bfb-ce17-460f-91ad-55ef987b5be9,2026-03-27 17:33:21,NS-VB-0000073,VEND-0003,2025-01-27,4598.41,"[{""description"":""Contractor"",""amount"":4598.41}]",Social,Media,2026-03-12 10:38:36
+4ecca190-1fd7-4d45-b24e-dd3a2a44b950,2026-03-27 17:33:21,NS-VB-0000074,VEND-0004,2024-09-05,388.3,"[{""description"":""Contractor"",""amount"":388.3}]",Content,Finance,2025-06-17 22:39:02
+e7a74122-4e1d-49a2-a25d-680a2c49040f,2026-03-27 17:33:21,NS-VB-0000075,VEND-0014,2024-05-22,2195.59,"[{""description"":""Contractor"",""amount"":2195.59}]",SEO,Media,2025-03-27 02:34:41
+6e124aca-119a-4040-8173-0cefba443841,2026-03-27 17:33:21,NS-VB-0000076,VEND-0004,2025-03-10,5211.18,"[{""description"":""Ad Spend"",""amount"":5211.18}]",Analytics,Media,2024-10-23 02:29:47
+f9bc4832-741c-4e02-acf4-f0b2d9a7f1da,2026-03-27 17:33:21,NS-VB-0000077,VEND-0022,2025-08-12,4154.9,"[{""description"":""Software"",""amount"":4154.9}]",Email,Client Services,2025-06-05 13:18:40
+ec93a67b-f396-475f-a41b-fd976d4dd2ae,2026-03-27 17:33:21,NS-VB-0000078,VEND-0031,2024-06-14,438.54,"[{""description"":""Software"",""amount"":438.54}]",Email,Leadership,2025-12-09 06:34:41
+1a44e9f5-4542-49b6-90ee-20093f593507,2026-03-27 17:33:21,NS-VB-0000079,VEND-0007,2025-06-19,3772.46,"[{""description"":""Software"",""amount"":3772.46}]",Email,Finance,2026-02-02 12:13:06
+c17c0d22-1e04-4d66-900f-3a3a4eb9f7b3,2026-03-27 17:33:21,NS-VB-0000080,VEND-0008,2025-11-29,2183.19,"[{""description"":""Software"",""amount"":2183.19}]",Content,Operations,2025-02-06 08:20:09
+aa87772d-5a92-4c59-913a-80ff7d929c7f,2026-03-27 17:33:21,NS-VB-0000081,VEND-0022,2025-12-22,5348.34,"[{""description"":""Software"",""amount"":5348.34}]",SEO,Operations,2024-06-08 02:59:22
+d9e50c3b-c67d-4072-91bc-99607859439a,2026-03-27 17:33:21,NS-VB-0000082,VEND-0027,2026-02-18,171.81,"[{""description"":""Software"",""amount"":171.81}]",Web Dev,Creative,2026-03-05 02:13:24
+16913ac0-33e9-4930-a497-4b50f348d6d2,2026-03-27 17:33:21,NS-VB-0000083,VEND-0035,2025-02-14,2436.7,"[{""description"":""Contractor"",""amount"":2436.7}]",Content,Media,2026-01-22 03:05:00
+ef881e1f-4f30-4b9a-a261-25992903928b,2026-03-27 17:33:21,NS-VB-0000084,VEND-0016,2025-05-09,4052.22,"[{""description"":""Contractor"",""amount"":4052.22}]",Social,Operations,2024-09-14 11:31:14
+0e1abcd0-8a42-4f1c-869e-5ec5149253e2,2026-03-27 17:33:21,NS-VB-0000085,VEND-0032,2024-11-02,5597.29,"[{""description"":""Software"",""amount"":5597.29}]",Web Dev,Media,2025-07-10 06:04:31
+af49e4f6-0425-4838-8309-24e9c58ae7e6,2026-03-27 17:33:21,NS-VB-0000086,VEND-0003,2024-06-29,5353.29,"[{""description"":""Ad Spend"",""amount"":5353.29}]",Social,Creative,2024-10-27 17:50:39
+a510e2ec-e944-475a-b85c-5516bbdfdf86,2026-03-27 17:33:21,NS-VB-0000087,VEND-0009,2025-06-11,5548.1,"[{""description"":""Ad Spend"",""amount"":5548.1}]",Analytics,Finance,2024-06-15 04:14:10
+861a8d67-8aa7-43ac-a5fc-ac366af2b211,2026-03-27 17:33:21,NS-VB-0000088,VEND-0025,2025-01-12,1208.88,"[{""description"":""Software"",""amount"":1208.88}]",Content,Finance,2026-01-14 01:10:03
+d7f1d33b-8454-456d-98e5-e2e41940423e,2026-03-27 17:33:21,NS-VB-0000089,VEND-0007,2025-05-13,3741.33,"[{""description"":""Contractor"",""amount"":3741.33}]",Social,Operations,2024-06-10 20:03:48
+9cb7145a-1471-4bc2-8fb7-de794c6a82b6,2026-03-27 17:33:21,NS-VB-0000090,VEND-0011,2025-05-11,2401.82,"[{""description"":""Contractor"",""amount"":2401.82}]",Email,Creative,2025-02-04 10:43:41
+71683f99-f391-4b86-a277-79238f8ecde0,2026-03-27 17:33:21,NS-VB-0000091,VEND-0035,2025-08-15,4317.13,"[{""description"":""Ad Spend"",""amount"":4317.13}]",Social,Media,2025-11-01 17:22:06
+b500a75d-748d-4986-a097-e86fdab3ba01,2026-03-27 17:33:21,NS-VB-0000092,VEND-0024,2025-08-27,1324.47,"[{""description"":""Ad Spend"",""amount"":1324.47}]",Social,Creative,2024-05-26 17:16:28
+6d3e7882-c014-4483-9b4c-a0aaa13c6c8c,2026-03-27 17:33:21,NS-VB-0000093,VEND-0023,2024-05-02,5873.93,"[{""description"":""Software"",""amount"":5873.93}]",SEO,Client Services,2025-03-07 19:27:23
+aa95d436-7b8e-43b2-bbd9-69eee5b6ee80,2026-03-27 17:33:21,NS-VB-0000094,VEND-0033,2026-03-22,1108.55,"[{""description"":""Software"",""amount"":1108.55}]",Web Dev,Creative,2024-11-13 11:58:52
+5be761a6-bfc8-43ca-9f85-dd98bc04cad2,2026-03-27 17:33:21,NS-VB-0000095,VEND-0013,2025-05-16,2819.01,"[{""description"":""Software"",""amount"":2819.01}]",Paid Media,Leadership,2024-08-11 05:02:57
+24afd1f9-737b-4534-b9c1-3d53cdb272c3,2026-03-27 17:33:21,NS-VB-0000096,VEND-0008,2025-08-06,4653.44,"[{""description"":""Software"",""amount"":4653.44}]",Analytics,Operations,2024-05-25 20:57:51
