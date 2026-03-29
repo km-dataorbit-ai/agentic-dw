@@ -5,14 +5,23 @@ import random
 from datetime import datetime, timedelta
 
 from .bamboohr import BambooHRSimulator
+from .clickhouse_upload import (
+    clickhouse_database_name,
+    create_clickhouse_client,
+    ensure_database,
+    ensure_tables,
+    insert_rows_async,
+    load_dotenv_file,
+)
 from .config import Config
 from .harvest import HarvestSimulator
 from .hubspot import HubSpotSimulator
 from .netsuite import NetSuiteSimulator
-from .utils import iso_ts, models_to_rows, write_csv
+from .utils import iso_ts, models_to_rows
 
 
 def generate_dataset(cfg: Config) -> None:
+    load_dotenv_file(cfg.dotenv_path)
     random.seed(cfg.seed)
     now = datetime.now()
     start = now - timedelta(days=cfg.years * 365)
@@ -45,42 +54,55 @@ def generate_dataset(cfg: Config) -> None:
     )
     netsuite_vendor_bills = netsuite_sim.generate_vendor_bills()
 
-    files = {
-        "raw_hubspot_companies.csv": models_to_rows(hubspot_companies),
-        "raw_hubspot_contacts.csv": models_to_rows(hubspot_contacts),
-        "raw_hubspot_deals.csv": models_to_rows(hubspot_deals),
-        "raw_hubspot_owners.csv": models_to_rows(hubspot_owners),
-        "raw_netsuite_customers.csv": models_to_rows(netsuite_customers),
-        "raw_netsuite_invoices.csv": models_to_rows(netsuite_invoices),
-        "raw_netsuite_payments.csv": models_to_rows(netsuite_payments),
-        "raw_netsuite_vendor_bills.csv": models_to_rows(netsuite_vendor_bills),
-        "raw_harvest_clients.csv": models_to_rows(harvest_clients),
-        "raw_harvest_projects.csv": models_to_rows(harvest_projects),
-        "raw_harvest_users.csv": models_to_rows(harvest_users),
-        "raw_harvest_tasks.csv": models_to_rows(harvest_tasks),
-        "raw_harvest_project_assignments.csv": models_to_rows(harvest_project_assignments),
-        "raw_harvest_time_entries.csv": models_to_rows(harvest_time_entries),
-        "raw_bamboohr_employees.csv": models_to_rows(bamboo_employees),
-        "raw_bamboohr_time_off.csv": models_to_rows(bamboo_time_off),
+    tables = {
+        "raw_hubspot_companies": models_to_rows(hubspot_companies),
+        "raw_hubspot_contacts": models_to_rows(hubspot_contacts),
+        "raw_hubspot_deals": models_to_rows(hubspot_deals),
+        "raw_hubspot_owners": models_to_rows(hubspot_owners),
+        "raw_netsuite_customers": models_to_rows(netsuite_customers),
+        "raw_netsuite_invoices": models_to_rows(netsuite_invoices),
+        "raw_netsuite_payments": models_to_rows(netsuite_payments),
+        "raw_netsuite_vendor_bills": models_to_rows(netsuite_vendor_bills),
+        "raw_harvest_clients": models_to_rows(harvest_clients),
+        "raw_harvest_projects": models_to_rows(harvest_projects),
+        "raw_harvest_users": models_to_rows(harvest_users),
+        "raw_harvest_tasks": models_to_rows(harvest_tasks),
+        "raw_harvest_project_assignments": models_to_rows(harvest_project_assignments),
+        "raw_harvest_time_entries": models_to_rows(harvest_time_entries),
+        "raw_bamboohr_employees": models_to_rows(bamboo_employees),
+        "raw_bamboohr_time_off": models_to_rows(bamboo_time_off),
     }
-    for filename, rows in files.items():
-        write_csv(cfg.outdir / filename, rows)
 
-    manifest = {
-        "generated_at": iso_ts(now),
-        "seed": cfg.seed,
-        "parameters": {
-            "companies": cfg.companies,
-            "employees": cfg.employees,
-            "years": cfg.years,
-            "time_entries": cfg.time_entries,
-        },
-        "files": {k: len(v) for k, v in files.items()},
-    }
-    with (cfg.outdir / "manifest.json").open("w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=2)
+    db = clickhouse_database_name()
+    client = create_clickhouse_client()
+    ensure_database(client, db)
+    ensure_tables(client, db)
 
-    print(f"Dataset written to: {cfg.outdir}")
-    for name, count in manifest["files"].items():
-        print(f" - {name}: {count} rows")
+    counts: dict[str, int] = {}
+    for table, rows in tables.items():
+        n = insert_rows_async(
+            client,
+            db,
+            table,
+            rows,
+            wait_for_async_insert=cfg.wait_for_async_insert,
+        )
+        counts[table] = n
+        print(f"{db}.{table}: {n} rows")
 
+    if cfg.manifest_path is not None:
+        cfg.manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        manifest = {
+            "generated_at": iso_ts(now),
+            "seed": cfg.seed,
+            "clickhouse_database": db,
+            "parameters": {
+                "companies": cfg.companies,
+                "employees": cfg.employees,
+                "years": cfg.years,
+                "time_entries": cfg.time_entries,
+            },
+            "tables": counts,
+        }
+        with cfg.manifest_path.open("w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2)

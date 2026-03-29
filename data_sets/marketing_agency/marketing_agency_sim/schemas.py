@@ -2,11 +2,18 @@ from __future__ import annotations
 
 from pydantic import BaseModel, ConfigDict, Field
 
+# Leading "_" on field names makes Pydantic v2 treat them as private — they never appear in
+# model_dump() and ClickHouse gets NULLs. Use public Python names + Field(alias=...) instead.
+
+_ROW = ConfigDict(populate_by_name=True)
+
 
 class HubSpotCompanyRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
-    _dataorbit_is_deleted: bool
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
+    dataorbit_is_deleted: bool = Field(alias="_dataorbit_is_deleted")
     hs_object_id: str
     name: str
     domain: str
@@ -18,9 +25,11 @@ class HubSpotCompanyRow(BaseModel):
 
 
 class HubSpotContactRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
-    _dataorbit_is_deleted: bool
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
+    dataorbit_is_deleted: bool = Field(alias="_dataorbit_is_deleted")
     hs_object_id: str
     email: str
     firstname: str
@@ -34,9 +43,11 @@ class HubSpotContactRow(BaseModel):
 
 
 class HubSpotDealRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
-    _dataorbit_is_deleted: bool
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
+    dataorbit_is_deleted: bool = Field(alias="_dataorbit_is_deleted")
     hs_object_id: str
     dealname: str
     amount: float
@@ -51,8 +62,10 @@ class HubSpotDealRow(BaseModel):
 
 
 class HubSpotOwnerRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     owner_id: str
     email: str
     first_name: str
@@ -61,8 +74,10 @@ class HubSpotOwnerRow(BaseModel):
 
 
 class NetSuiteCustomerRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     company_name: str
     email: str
@@ -76,8 +91,10 @@ class NetSuiteCustomerRow(BaseModel):
 
 
 class NetSuiteInvoiceRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     entity_id: str
     tran_date: str
@@ -90,8 +107,10 @@ class NetSuiteInvoiceRow(BaseModel):
 
 
 class NetSuitePaymentRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     customer_id: str
     total: float
@@ -103,8 +122,8 @@ class NetSuitePaymentRow(BaseModel):
 class NetSuiteVendorBillRow(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     entity_id: str
     tran_date: str
@@ -116,8 +135,10 @@ class NetSuiteVendorBillRow(BaseModel):
 
 
 class HarvestClientRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     name: str
     is_active: bool
@@ -126,8 +147,10 @@ class HarvestClientRow(BaseModel):
 
 
 class HarvestProjectRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     client_id: int
     name: str
@@ -147,8 +170,10 @@ class HarvestProjectRow(BaseModel):
 
 
 class HarvestUserRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     first_name: str
     last_name: str
@@ -164,8 +189,10 @@ class HarvestUserRow(BaseModel):
 
 
 class HarvestTaskRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     name: str
     is_default: bool
@@ -174,8 +201,10 @@ class HarvestTaskRow(BaseModel):
 
 
 class HarvestProjectAssignmentRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     project_id: int
     user_id: int
@@ -185,8 +214,10 @@ class HarvestProjectAssignmentRow(BaseModel):
 
 
 class HarvestTimeEntryRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: int
     user_id: int
     project_id: int
@@ -203,8 +234,10 @@ class HarvestTimeEntryRow(BaseModel):
 
 
 class BambooEmployeeRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     display_name: str
     first_name: str
@@ -226,8 +259,10 @@ class BambooEmployeeRow(BaseModel):
 
 
 class BambooTimeOffRow(BaseModel):
-    _dataorbit_sync_id: str
-    _dataorbit_synced_at: str
+    model_config = _ROW
+
+    dataorbit_sync_id: str = Field(alias="_dataorbit_sync_id")
+    dataorbit_synced_at: str = Field(alias="_dataorbit_synced_at")
     id: str
     employee_id: str
     time_off_type: str
@@ -236,4 +271,3 @@ class BambooTimeOffRow(BaseModel):
     status: str
     amount: float
     unit: str
-

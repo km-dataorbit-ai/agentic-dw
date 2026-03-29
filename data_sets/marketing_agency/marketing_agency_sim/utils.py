@@ -38,5 +38,5 @@ def json_cell(value: Any) -> str:
 
 
 def models_to_rows(models: list[BaseModel]) -> list[dict[str, Any]]:
-    return [model.model_dump(by_alias=True) for model in models]
+    return [m.model_dump(by_alias=True) for m in models]
 

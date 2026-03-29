@@ -1,1 +1,6 @@
+# clickhouse-connect 0.7+ uses PEP 585 hints and breaks on Python 3.8; 0.6.x works on 3.8.
+clickhouse-connect>=0.8.0; python_version >= "3.9"
+clickhouse-connect>=0.6.23,<0.7.0; python_version < "3.9"
+
 pydantic>=2.12.0
+python-dotenv>=1.0.0
